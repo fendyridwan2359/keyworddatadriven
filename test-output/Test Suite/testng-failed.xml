@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Suite]">
+  <test name="Test QA(failed)">
+    <classes>
+      <class name="com.cronos.testNG.TestNG">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.cronos.testNG.TestNG -->
+      <class name="ReadExcelData.ReadExcel1">
+        <methods>
+          <include name="main"/>
+        </methods>
+      </class> <!-- ReadExcelData.ReadExcel1 -->
+    </classes>
+  </test> <!-- Test QA(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->
